@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anushya's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/773944d122.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+        
+<!-- Header Start -->
+
+    <div id="header">
+
+        <div class="container">
+
+
+            <!-- <div class="header-bar">
+            <div class="logo">
+                <p><span>A</span>nushya.</p>
+            </div> -->
+                
+            <nav>
+            <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" id="closemenu" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" id="openmenu" onclick="openMenu()"></i>
+            </nav>
+           
+
+
+            <div class="header-row">
+            <div class="header-text">
+
+                <p>I'm <span>Anushya</span>!</p>
+                <h5>An MCA graduate and aspiring Frontend developer!<br>
+                     I enjoy building websites and learning new technologies.</h5>
+            </div>
+            <div class="img">
+                <img src="./Images/journal.jpg" alt="" height="380px" width="330px">
+            </div>
+        </div>
+        </div>
+</div>
+<!-- Header End -->
+
+<!---   About  -->
+
+    <div id="about">
+
+        <div class="container">
+            
+            <div class="row">
+
+                <div class="about-col-1">
+                    <img src="./Images/lady-designer.jpg" alt="" height="600px" width="450px">
+                </div>
+                <div class="about-col-2">
+                <h2 class="sub-title">About Me</h2> <br>
+                <p>Hello Everyone! <br><br>
+                    I'm Anushya, an MCA graduate with a strong foundation in programming languages and methodologies. During my academic journey, I have had the opportunity to hone my skills through various internships and projects. <br><br>
+                    I have a solid understanding of HTML, CSS, and JavaScript. My experience includes working on web development projects that have enhanced my problem-solving abilities and attention to detail. <br><br>
+                    I'm passionate about leveraging my skills to create innovative solutions and am currently seeking full-time opportunities in web development.</p> <br><br>
+
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span><b>Java</b></span><br>Fundamentals, OOP, Collection Framework, Arrays, Strings</li>
+                        <li><span><b>FrontEnd</b></span><br>HTML, CSS (FlexBox, Grid, Animations), JavaScript (DOM Manipulation, Event Handling)</li>
+                        <li><span><b>Database</b></span><br>SQL (Joins, SubQueries, Grouping, Functions and DDL/DML/TCL)</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span><b>Bachelor of Computer Applications   2019-22</b></span><br><br>Government Arts and Science College, Kadayanallur</li>
+                        <li><b>Percentage : 90</b></li>
+                        <li><span><b>Master of Computer Applications   2022-24</b></span><br> <br>Manonmaniam Sundaranar University, Tirunelveli</li>
+                        <li><b>Percentage : 83</b></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> <br><br><br><br>
+
+    <!-- Projects -->
+
+    <div id="projects">
+        <div class="container">
+            <p id="h1">Projects</p> <br>
+            <p>Here are some of the projects I've worked on:</p>
+            <div class="projlist">
+                <div>
+                    <i class="fa-solid fa-code-compare"></i>
+                    <h2>Tic-Tac-Toe Game</h2>
+                    <p>Developed a "Tic Tac Toe game using Python", implementing fundamental programming concepts and logic to create an interactive and user-friendly gaming experience.</p>
+                    
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-file-code"></i>
+                    <h2>Waste Classification System</h2>
+                    <p>Developed a "Waste Classification System using Machine Learning Algorithms", enhancing the accuracy and efficiency of waste sorting processes. This project demonstrated my skills in data analysis, model training, and deploying machine learning solutions for practical applications.</p>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Vehicle Insurance Application</h2>
+                    <p>Developed a comprehensive application designed to streamline the process of obtaining and managing vehicle insurance. The platform includes features for policy comparison, claim management, and real-time tracking, enhancing user experience and efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </div> <br><br><br><br><br><br><br><br><br><br>
+     
+     <!-- Experiences -->
+     <div id="experiences">
+        <div class="container">
+            <h2 class="sub-title">Experiences</h2> <br>
+            <p>As a recent graduate, I have gained valuable experience through internships and projects that have honed my skills in web development and programming.</p>
+            <div class="exp-list">
+                <div>
+                    <i class="fa-solid fa-web-awesome"></i>
+                    <h3>Brassy Technologies, Tirunelveli</h3>
+                    <h4>Web Development Intern!</h4>
+                    <p>I have completed a web development internship at Brassy Technologies in Thirunelveli! During my time there, I honed  my skills in front-end development, working on various projects and I gained hands-on experience with HTML, CSS, JavaScript, and responsive design. This internship has been a fantastic learning experience, and I am eager to apply my skills in future projects.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h3>Platosys Technologies, Chennai</h3>
+                    <h4>FrontEnd Development Intern!</h4>
+                    <p>I have successfully completed my Frontend Developer Internship at Platosys Technology, Thiruporur! 
+
+                        During my time at Platosys, I had the opportunity to work on real-time projects that enhanced my skills in HTML, CSS, JavaScript, and Reactjs. I collaborated with a talented team to develop responsive and user-friendly web applications. This hands-on experience has been invaluable in solidifying my understanding of front-end development and improving my problem-solving abilities..</p>
+                </div>
+            </div>
+        </div><br><br><br><br><br><br><br><br><br><br>
+
+
+
+    <!-- Contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="con">
+
+                <h2 class="sub-title">Contact Me</h2> <br>
+
+                <p>Thank you for visiting my portfolio! If you have any questions or would like to connect, feel free to reach out.</p>
+
+                <p><i class="fa-solid fa-envelope"></i>anua14402@gmail.com</p>
+                
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/_anushya_marimuthu/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/anushya-marimuthu21/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/anushya21"><i class="fa-brands fa-github"></i></a>
+                    
+                </div>
+
+                <a href="./Images/MAnushya-Resume.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+
+    </div>
+
+
+    <!-- Footer -->
+
+
+    <div class="copyright">
+    <p>&copy; 2025 Anushya <i class="fa-solid fa-heart"></i> All rights reserved.</p>
+    </div>
+
+        
+
+    
+
+
+
+
+
+
+
+
+    <script>
+    // filepath: c:\Users\M R Anushya\Desktop\Web Technology\Portfolio\index.html
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(evt, tabname) {
+    for (let tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (let tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    evt.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+
+
+    <script>
+// filepath: c:\Users\M R Anushya\Desktop\Web Technology\Portfolio\index.html
+    var sidemenu = document.getElementById("sidemenu");
+    function openMenu() {
+        sidemenu.style.right = "0";
+    }
+    function closeMenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
